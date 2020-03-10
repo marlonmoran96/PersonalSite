@@ -57,14 +57,14 @@ class Nav extends Component {
               </IconButton>
             </div>
             <IconButton
-              href="https://github.com"
+              href="https://github.com/marlonmoran96/"
               target="_blank"
               rel="noopener"
             >
               <GithubBox fontSize="large" />
             </IconButton>
             <IconButton
-              href="https://www.google.com"
+              href="https://www.linkedin.com/in/marlon-moran-926b40180/"
               target="_blank"
               rel="noopener"
             >
@@ -75,6 +75,11 @@ class Nav extends Component {
             <Button color="inherit" component={Link} to="/about">
               <Typography color="inherit" variant="body1" noWrap>
                 About
+              </Typography>
+            </Button>
+            <Button color="inherit" component={Link} to="/contact">
+              <Typography color="inherit" variant="body1" noWrap>
+                Contact
               </Typography>
             </Button>
         
