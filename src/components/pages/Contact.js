@@ -4,7 +4,7 @@ import sunnyview from "../../static/sunnyview.jpg";
 import CardOverlay from "../subcomponents/CardOverlay";
 import withStyles from "@material-ui/core/styles/withStyles";
 import ContactInfo from "../subcomponents/ContactInfo";
-import { Email, Phone, GithubCircle, Linkedin } from "mdi-material-ui";
+import { Email, Phone, Github, Linkedin } from "mdi-material-ui";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 
@@ -95,7 +95,7 @@ class Contact extends React.Component {
                   target="_blank"
                   rel="noopener"
                 >
-                  <GithubCircle className={classes.icon} />
+                  <Github className={classes.icon} />
                 </IconButton>
               }
             />

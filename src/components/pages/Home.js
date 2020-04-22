@@ -38,12 +38,12 @@ function Home(props) {
   return (
     <Grid container justify="center" alignItems="center" direction="row">
       <Grid item md={8} sm={8} xs={12}>
-        <CardOverlay image={home} text="Let's Code" />
+        <CardOverlay image={home} text="Let's build something" />
       </Grid>
       <Grid item md={8} sm={8} xs={12}>
         <Paper className={classes.paper}>
           <Typography variant="h2" className={classes.text} align="center">
-            ... so we can innovate the next big thing.
+            ... so we can create the next big thing.
           </Typography>
           <Typography
             variant="body1"
@@ -51,8 +51,8 @@ function Home(props) {
             align="center"
             color="textSecondary"
           >
-            From life guarding, to waxing boats, I've always tried to have passion about anything I do in life.
-            I'm someone with an attention to detail. I love making full-stack applications.
+            From life guarding, to waxing houseboats, I've always put passion into anything I do in life.
+            I'm a detail oritneted computer software developer, who wnats to pursue a carrer in the field of software development. 
           </Typography>
         </Paper>
       </Grid>

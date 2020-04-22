@@ -1,12 +1,12 @@
 import React, { Component } from "react";
+import logo from "../static/MM.png";
 import CssBaseline from "@material-ui/core/CssBaseline/CssBaseline";
 import Toolbar from "@material-ui/core/Toolbar/Toolbar";
 import Typography from "@material-ui/core/Typography/Typography";
 import withStyles from "@material-ui/core/styles/withStyles";
 import IconButton from "@material-ui/core/IconButton/IconButton";
 import Button from "@material-ui/core/Button/Button";
-import logo from "../static/MM.png";
-import { GithubBox, LinkedinBox } from "mdi-material-ui";
+import { Github, Linkedin } from "mdi-material-ui";
 import Main from "./Main";
 import { Link } from "react-router-dom";
 
@@ -61,14 +61,14 @@ class Nav extends Component {
               target="_blank"
               rel="noopener"
             >
-              <GithubBox fontSize="large" />
+              <Github fontSize="large" />
             </IconButton>
             <IconButton
               href="https://www.linkedin.com/in/marlon-moran-926b40180/"
               target="_blank"
               rel="noopener"
             >
-              <LinkedinBox fontSize="large" />
+              <Linkedin fontSize="large" />
             </IconButton>
           </Toolbar>
           <Toolbar variant="dense" className={classes.toolbarSecondary}>
